@@ -14,7 +14,7 @@ cd <sketchname>
 ```
 Add Makefile
 ```bash
-curl -LJO https://github.com/donDominik0/make/blob/main/arduino-cli/blink/Makefile
+curl -O https://raw.githubusercontent.com/donDominik0/make/main/arduino-cli/blink/Makefile
 ```
 Attach board, compile and upload code
 ```bash
