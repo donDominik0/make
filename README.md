@@ -2,7 +2,8 @@
 
 ## Arduino-CLI
 
-Install arduino-CLI
+### Install arduino-CLI
+
 Create sketch with command
 ```bash
 arduino-cli sketch new <sketchname> 
@@ -13,7 +14,7 @@ cd <sketchname>
 ```
 Add Makefile
 ```bash
-curl 
+curl -LJO https://github.com/donDominik0/make/blob/main/arduino-cli/blink/Makefile
 ```
 Attach board, compile and upload code
 ```bash
