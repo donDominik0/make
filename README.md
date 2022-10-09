@@ -37,7 +37,7 @@ touch <filename>.c
 
 Add Makefile
 ```bash
-curl -O 
+curl -O https://raw.githubusercontent.com/donDominik0/make/main/c/Makefile
 ```
 
 Compile, link and flash code
