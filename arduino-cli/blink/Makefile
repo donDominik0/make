@@ -4,7 +4,7 @@ PORT = /dev/ttyACM0
 
 # attach board, compile and upload code
 .PHONY:all
-all: attach compile upload
+all: attach compile flash
 
 
 # attach board to port
@@ -20,8 +20,8 @@ compile:
 
 
 # upload code
-.PHONY: upload
-upload:
+.PHONY: flash
+flash:
 	${CC} upload -v
 
 
