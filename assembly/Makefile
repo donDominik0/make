@@ -5,7 +5,7 @@ OBJCOPY = avr-objcopy
 CFLAGS = -std=c99 -Wall -g -Os -mmcu=${MCU} -DF_CPU=${F_CPU} -I.
 PORT = /dev/ttyACM0
 TARGET = main
-SRC = *.asm
+SRC = *.S
 
 PROGRAMMER = arduino 
 
@@ -26,7 +26,7 @@ flash:
 
 .PHONY: clean
 clean:
-	rm -f *.bin *.hex
+	rm -f *.bin *.hex *.cof *.obj
 
 
 
